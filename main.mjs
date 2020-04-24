@@ -1,7 +1,7 @@
 import util from 'util';
 
 import redis from 'redis';
-import createRedisClient from 'redis/lib/createClient';
+import createRedisClient from 'redis/lib/createClient.js';
 
 class _PromiseRedis extends redis.RedisClient {
     constructor(...args) {
